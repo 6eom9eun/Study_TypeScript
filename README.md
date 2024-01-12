@@ -7,7 +7,7 @@
 5. tsconfig.json 생성 후 내용 작성
 6. ts 파일 js로 변환 : 터미널 켜서 tsc -w (안되면 export PATH=$PATH:~/.npm-global/bin)
    - 그러면 ts -> js자동 변환, 파일 사용시 변환된 js 파일 사용
-   - ts -> js 컴파일시 옵션 설정은 tsconfig.json 여기서 ㄴ
+   - ts -> js 컴파일시 옵션 설정은 tsconfig.json 여기서
 
 <h3>sconfig.json</h3>
   
