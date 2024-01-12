@@ -7,8 +7,8 @@ let 나이 :number = 20;
 // 나이 = '스무살'; // error TS2322: Type '"스무살"' is not assignable to type 'number'.
 
 let 결혼했니 :boolean = false;
-let 결혼했니2 :null = undefined;
-let 결혼했니3 :undefined = null;
+// let 결혼했니2 :null = undefined;
+// let 결혼했니3 :undefined = null;
 
 let 회원들 :string[]= ['kim', 'park', 'lee']; // array type은 [], 근데 타입을 지정해줘야함
 
