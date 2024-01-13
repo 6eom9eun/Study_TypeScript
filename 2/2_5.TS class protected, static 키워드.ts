@@ -80,15 +80,15 @@ User.addOne(3) //이렇게 하면 x가 3 더해져야함
 User.addOne(4) //이렇게 하면 x가 4 더해져야함
 User.printX()  //이렇게 하면 콘솔창에 x값이 출력되어야함
 */
-class User { 
+class User2_5_5 { 
     private static x = 10; 
     public static y = 20;
 
     static addOne(파라미터 :number){
-        User.x += 파라미터
+        User2_5_5.x += 파라미터
     }
     static printX(){
-        console.log(User.x)
+        console.log(User2_5_5.x)
     }
 }
 

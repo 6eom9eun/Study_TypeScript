@@ -102,18 +102,18 @@ User.addOne(3) //이렇게 하면 x가 3 더해져야함
 User.addOne(4) //이렇게 하면 x가 4 더해져야함
 User.printX()  //이렇게 하면 콘솔창에 x값이 출력되어야함
 */
-var User = /** @class */ (function () {
-    function User() {
+var User2_5_5 = /** @class */ (function () {
+    function User2_5_5() {
     }
-    User.addOne = function (파라미터) {
-        User.x += 파라미터;
+    User2_5_5.addOne = function (파라미터) {
+        User2_5_5.x += 파라미터;
     };
-    User.printX = function () {
-        console.log(User.x);
+    User2_5_5.printX = function () {
+        console.log(User2_5_5.x);
     };
-    User.x = 10;
-    User.y = 20;
-    return User;
+    User2_5_5.x = 10;
+    User2_5_5.y = 20;
+    return User2_5_5;
 }());
 /*
 웹 요소 애니메이팅
