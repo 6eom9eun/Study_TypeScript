@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "commonjs",
+        "module": "es6",
         "strictNullChecks": true,
+        "declaration": true, // ts파일마다 d.ts파일 자동 생성
+        "typeRoots" : ["./types", "./node_modules/@types"] // d.ts 파일 글로벌 모듈로 만들기
     }
 }  

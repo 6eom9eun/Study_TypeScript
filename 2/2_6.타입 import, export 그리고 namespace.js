@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var _2_6_a_1 = require("./2_6.a");
-console.log(_2_6_a_1.이름2_6, _2_6_a_1.나이2_6);
+import { 이름2_6, 나이2_6 } from './2_6.a';
+console.log(이름2_6, 나이2_6);
 var 변수2_6 = 'park';
 var 빠방이 = { wheel: 4, model: 'Sonata' };
 var 함수2_6 = function (a) {

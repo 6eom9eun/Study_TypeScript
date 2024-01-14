@@ -49,9 +49,9 @@ function 함수(){
 그럼 함수에 파라미터를 어떻게 만들고 타입지정은 또 어떻게 해야할까요? 
 오늘 배운 tuple 타입과 rest parameter를 사용 !
 */
-function 함수(...rest :[string, boolean, ...(number|string)[] ]){
+function 함수2_9_2(...rest :[string, boolean, ...(number|string)[] ]){
 }
-함수('a', true, 6, 3, '1', 4)
+함수2_9_2('a', true, 6, 3, '1', 4)
 
 /*
 다음과 같은 문자/숫자 분류기 함수를 만들기
@@ -62,7 +62,7 @@ function 함수(...rest :[string, boolean, ...(number|string)[] ]){
 (동작예시)
 함수('b', 5, 6, 8, 'a') 이렇게 사용할 경우 이 자리에 [ ['b', 'a'], [5, 6, 8] ] 이 return 되어야합니다.
 */
-function 함수(...rest :(string|number)[]){
+function 함수2_9_3(...rest :(string|number)[]){
     let result :[string[], number[]] = [[],[]];
     rest.forEach((a)=>{
         if (typeof a === 'string') {

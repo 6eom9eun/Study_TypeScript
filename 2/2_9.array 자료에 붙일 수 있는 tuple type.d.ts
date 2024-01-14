@@ -1,0 +1,11 @@
+declare let 멍멍: (string | boolean)[];
+declare let 멍멍2: [string, boolean];
+declare let 멍멍3: [string, boolean?];
+declare function 함수2_9(...x: [number, string]): void;
+declare function 함수2_9_1(a: number, b: string): void;
+declare let arr2_9: number[];
+declare let arr2_9_1: [number, number, ...number[]];
+declare let 최근사먹은음식: [string, number, boolean];
+declare let arr2_9_2: [string, number, ...boolean[]];
+declare function 함수2_9_2(...rest: [string, boolean, ...(number | string)[]]): void;
+declare function 함수2_9_3(...rest: (string | number)[]): [string[], number[]];
