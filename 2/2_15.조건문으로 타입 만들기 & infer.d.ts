@@ -1,0 +1,16 @@
+type Age2_15<T> = T extends string ? string : unknown;
+declare let a2_15: Age2_15<string>;
+declare let a2_15_1: Age2_15<number>;
+type FirstItem<T> = T extends any[] ? T[0] : any;
+declare let age1: FirstItem<string[]>;
+declare let age2: FirstItem<number>;
+type Person2_15<T> = T extends infer R ? R : unknown;
+type a2_15 = Person2_15<string>;
+type 타입추출<T> = T extends (infer R)[] ? R : unknown;
+type a2_15_1 = 타입추출<string[]>;
+type 타입추출2<T> = T extends (() => infer R) ? R : unknown;
+type a2_15_2 = 타입추출2<() => void>;
+type b2_15 = ReturnType<() => void>;
+type Age2_15_1<T> = T extends [string, ...any] ? T[0] : unknown;
+type 타입뽑기<T> = T extends (x: infer R) => any ? R : any;
+type a = 타입뽑기<(x: number) => void>;

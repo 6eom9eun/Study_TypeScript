@@ -15,4 +15,4 @@ var 나이2_11 = 30;
 // https://www.typescriptlang.org/dt/search?search=
 // 위 사이트에서 타입 정의 파일 찾아서 설치하면 됨
 // npm 설치시엔 대부분 타입도 들어옴 => npm i @types/jquery
-$().append();
+// $().append()
